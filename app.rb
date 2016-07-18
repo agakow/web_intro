@@ -11,9 +11,15 @@ get '/secret' do
 end
 
 get '/home' do
-  "Home page "
+  "Home page: This is a home page"
 end
 
 get '/about' do
   "About page"
+end
+
+get '/cat' do
+  "<div style='border: 3px dashed red'>
+      <img src='http://bit.ly/1eze8aE'>
+    </div>"
 end
